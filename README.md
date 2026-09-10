@@ -95,9 +95,9 @@ HR PUSH receives the Bluetooth heart-rate data and forwards it to your HTTP endp
 * Uvicorn
 * WebSockets
 
-`main.py`: for vercel (it require redis)
-`app.py`: for vps server
-`hr.service`: systemd setup for webhook server  
+- `main.py`: for vercel (it require redis)
+- `app.py`: for vps server
+- `hr.service`: systemd setup for webhook server  
 
 - install packages
 
